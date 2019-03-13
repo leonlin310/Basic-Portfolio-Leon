@@ -35,11 +35,25 @@ padding: 15px;
 }
     
 
-section {
+/* section {
     width: 960px;
     margin: 0 auto;
     padding-bottom: 100px;
   
+} */
+
+section {
+    width: 100%;
+    background-color: pink;
+
+}
+
+section div {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+
+
 }
 
 section h2 /*This is the "About Me" section*/ 
@@ -58,9 +72,14 @@ section h2 /*This is the "About Me" section*/
 
 }
 
-footer {
+footer div {
+    /* display: table-cell; */
     width: 100%;
+    height: 90px;
+    /* vertical-align: bottom; */
     text-align: center;
+    background-color: orange
+    
     
 
 }
