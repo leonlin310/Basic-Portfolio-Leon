@@ -1,0 +1,74 @@
+header { 
+  
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid grey /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+}
+
+header div {
+        width: 960px;
+        margin: 0 auto;
+}
+
+header h1 {
+
+    background-color: green; /*This makes 'Leon Lin' backgrond green'*/
+    padding: 15px;
+}
+
+header h1, nav {
+    display: inline-block; /*inline-block does not add a line-break after element so element can sit next to other elements*/
+    /* background-color: pink; */
+}
+
+header h1 {
+        float: left
+}
+
+nav {
+    float: right;
+}
+
+header a {
+padding: 15px;
+
+}
+    
+
+section {
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  
+}
+
+section h2 /*This is the "About Me" section*/ 
+    {
+    padding: 15px;
+    background-color: yellow;
+    border-bottom: 1px solid grey;
+}
+
+#profilepic {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 90px;
+    padding-bottom: 25px;
+
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+/* footer div {
+    margin: 0 auto;
+} */
+
+/* .background {
+    background-color: orange;
+} */
