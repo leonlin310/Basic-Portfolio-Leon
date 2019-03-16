@@ -69,14 +69,16 @@ section h2 /*This is the "Portfolio" section*/
     width: 960px;
     margin: 0 auto;
     background: darkgray;
-    display: block;
+    
   }
 
 .box {
     position: relative;
+    box-sizing: border-box;
     width: 325px;
     height: 216px;
     background: #2db34a;
+    margin: 16px 40px 16px 0px;
     /* border: 1px solid black; */
     float: left;
   }
