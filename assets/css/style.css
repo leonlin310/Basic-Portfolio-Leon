@@ -1,9 +1,20 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-seerif;
+
+}
+
+body {
+    background-color: rgb(228, 226, 226);
+}
+
 header { 
   
     width: 100%;
     height: 90px;
-    border-bottom: 1px solid grey /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
-}
+    border-bottom: 1px solid grey; /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+    font-family: 'Georgia', Times, serif;
+    background-color:#ffffff;
+}   
 
 header div {
         width: 960px;
@@ -12,13 +23,15 @@ header div {
 
 header h1 {
 
-    background-color: green; /*This makes 'Leon Lin' backgrond green'*/
-    padding: 15px;
+    background-color: #4aaaa5; /*This makes 'Leon Lin' background green'*/
+    color: white; /*Font Color*/
+    padding: 25px;
+    margin: 0;
 }
 
 header h1, nav {
     display: inline-block; /*inline-block does not add a line-break after element so element can sit next to other elements*/
-    /* background-color: pink; */
+    
 }
 
 header h1 {
@@ -27,6 +40,7 @@ header h1 {
 
 nav {
     float: right;
+    font-family: 'Georgia', Times, serif;
 }
 
 header a {
@@ -35,16 +49,10 @@ padding: 15px;
 }
     
 
-/* section {
-    width: 960px;
-    margin: 0 auto;
-    padding-bottom: 100px;
-  
-} */
-
 section {
     width: 100%;
-    background-color: pink;
+    background-color: rgb(228, 226, 226);
+
 
 }
 
@@ -56,12 +64,13 @@ section div {
 
 }
 
-section h2 /*This is the "About Me" section*/ 
+section h2 /*This is the "Portfolio" section*/ 
     {
     padding: 15px;
-    background-color: yellow;
+    background-color:#ffffff;
     border-bottom: 1px solid grey;
 }
+
 
 #profilepic {
     height: 20%;
@@ -79,8 +88,6 @@ footer div {
     /* vertical-align: bottom; */
     text-align: center;
     background-color: orange
-    
-    
 
 }
 
