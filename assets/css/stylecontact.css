@@ -12,7 +12,10 @@ header {
   
     width: 100%;
     height: 90px;
-    border-bottom: 1px solid grey /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+    border-bottom: 1px solid grey; /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+    font-family: 'Georgia', Times, serif;
+    background-color:#ffffff;
+
 }
 
 header div {
@@ -40,6 +43,7 @@ header h1 {
 nav {
     float: right;
     font-family: 'Georgia', Times, serif;
+    padding-top: 30px;
 }
 
 header a {
@@ -84,9 +88,10 @@ section div {
 
 section h2 /*This is the "Contact" section*/ 
     {
+    color: #4aaaa5;
     padding: 15px;
     background-color:#ffffff;
-    border-bottom: 1px solid grey;
+    border-bottom: 3px groove lightgray;
 }
 
 section h3 /*This is the "Submit" button*/ 
@@ -106,8 +111,10 @@ footer div {
     height: 90px;
     /* vertical-align: bottom; */
     text-align: center;
-    background-color: orange
-    
+    background-color: gray;
+    color: white;
+    border-top: 10px solid #4aaaa5;
+
     
 
 }

@@ -31,7 +31,7 @@ header h1 {
 
 header h1, nav {
     display: inline-block; /*inline-block does not add a line-break after element so element can sit next to other elements*/
-    
+    padding-top: 30px;
 }
 
 header h1 {
@@ -68,7 +68,8 @@ section h2 /*This is the "Portfolio" section*/
     {
     padding: 15px;
     background-color:#ffffff;
-    border-bottom: 1px solid grey;
+    border-bottom: 3px groove lightgray;
+    color: #4aaaa5;
 }
 
 
@@ -121,8 +122,9 @@ footer div {
     height: 90px;
     /* vertical-align: bottom; */
     text-align: center;
-    background-color: orange
-    
-    
+    background-color: gray;
+    color: white;
+    border-top: 10px solid #4aaaa5;
+
 
 }
